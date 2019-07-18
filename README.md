@@ -28,12 +28,12 @@ npm start
 ```
 
 
-## Frameworks & Librairies
+## Frameworks & Library
 
 <b>Frameworks : </b>
 [React](https://www.reactboilerplate.com/)
 
-<b>Librairies : </b>
+<b>Libraries : </b>
 [react-particles-js](https://www.npmjs.com/package/react-particles-js), 
 [React bootstrap](https://react-bootstrap.github.io/getting-started/introduction),
 [react-router-dom](https://www.npmjs.com/package/react-router-dom),
