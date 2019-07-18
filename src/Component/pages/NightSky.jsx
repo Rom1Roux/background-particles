@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
-import Particles from 'react-particles-js'
+import React, { Component } from 'react';
+import Particles from 'react-particles-js';
 
-import ParticlesReturn from '../Class/ParticlesReturn'
+import ParticlesReturn from '../Class/ParticlesReturn';
 
 class NightSky extends Component {
   constructor(props) {
-    super(props)
-    this.particlesReturn = new ParticlesReturn()
-    this.nightSkyParticles = this.particlesReturn.nightSkyParticles()
+    super(props);
+    this.particlesReturn = new ParticlesReturn();
+    this.nightSkyParticles = this.particlesReturn.nightSkyParticles();
   }
   render() {
     return (
@@ -27,11 +27,12 @@ class NightSky extends Component {
               top: 0,
               background: 'rgb(63,76,107)'
             }}
+            className='particle-js'
           />
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default NightSky
+export default NightSky;

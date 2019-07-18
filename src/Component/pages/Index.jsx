@@ -5,8 +5,9 @@ class Index extends Component {
   render() { 
     return ( 
       <div className='panel'>
-      <h1>Test Background Particles</h1>
-      <p>npm : react-particles-js</p>
+      <h1>Particles Backgound</h1>
+      <p>Here are four examples with the <a href={"https://www.npmjs.com/package/react-particles-js"}>react-particles-js</a> library</p>
+      <p>Click on the navigation bar to see the examples</p>
       </div>
      );
   }
